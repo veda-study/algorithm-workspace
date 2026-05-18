@@ -29,10 +29,10 @@
 
 | 이름 | 역할 | 티어 / 목표 | GitHub |
 | :---: | :---: | :---: | :---: |
-| **이영민** | 스터디 리더 | - / - | [@영민](https://github.com) |
-| **이병규** | - | - / - | [@병규](https://github.com) |
-| **전제혁** | - | - / - | [@제혁](https://github.com/je0sa) |
-| **김명준** | - | - / Gold | [@명준](https://github.com/Mangjun) |
+| **이영민** | 팀장 | Gold / Platinum | [@영민](https://github.com/lym0217) |
+| **이병규** | 팀원 | - / Gold | [@병규](https://github.com/ibyeonggyu) |
+| **전제혁** | 팀원 | - / Gold | [@제혁](https://github.com/je0sa) |
+| **김명준** | 팀원 | - / Gold | [@명준](https://github.com/Mangjun) |
 
 ---
 
@@ -60,4 +60,4 @@
 
 | 주차 | 주제 | 진행 기간 | 가이드라인 및 문제 링크 | 발표자 및 주제 |
 | :---: | :---: | :---: | :---: | :---: |
-| Week 01 | - | 05.18 ~ 05.24 | - | - | 
+| Week 01 | 팀원 실력 검증 및 Jira 및 Github 툴 숙지 | 05.18 ~ 05.24 | - | 김명준<br>Jira 사용법 |

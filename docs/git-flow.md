@@ -6,7 +6,7 @@
 ---
 
 ## 📌 핵심 요약 규칙
-* **브랜치 명명 규칙:** `week주차/자기이름` (예시: `week01/mangjun`)
+* **브랜치 명명 규칙:** `week주차/키값` (예시: `week01/VEDA-7`)
 * **커밋 메시지 규칙:** `태그: [Jira이슈키] 내용` (예시: `feat: [VEDA-7] 프로그래머스 PCCE 기출문제 1번 풀이 완료`)
 * **메인 금지:** `main` 브랜치에 직접 Push하는 것은 시스템적으로 막혀 있습니다. 무조건 PR을 거쳐야 합니다.
 
@@ -52,8 +52,8 @@ git checkout main
 # 2. 원격 저장소(GitHub)의 최신 코드 다운로드
 git pull origin main
 
-# 3. 이번 주차에 맞는 내 브랜치 생성 및 이동 (규칙: week주차/자기이름)
-git checkout -b week01/mangjun
+# 3. 이번 주차에 맞는 내 브랜치 생성 및 이동 (규칙: week주차/키값)
+git checkout -b week01/VEDA-7
 ```
 
 ### 1.2 코드 작성 및 저장하기
@@ -78,7 +78,7 @@ git add .
 git commit -m "wip: [VEDA-7] 프로그래머스 PCCE 기출문제 1번 문자열 출력 로직 구현 중"
 
 # 2. GitHub에 push하여 코드 백업
-git push origin week01/mangjun
+git push origin week01/VEDA-7
 
 # 3. Jira 본인 카드 댓글에 데일리 로그(오늘 접근 방식, 막힌 부분) 작성!
 ```
@@ -90,7 +90,7 @@ git push origin week01/mangjun
 ### 1.3 GitHub에 내 브랜치 업로드 (Push)
 ```bash
 # 7. 내 브랜치 이름을 명확히 적어서 Push
-git push origin week01/mangjun
+git push origin week01/VEDA-7
 ```
 
 ---
@@ -137,5 +137,5 @@ git checkout main
 git pull origin main
 
 # 3. 사용이 끝난 내 컴퓨터 안의 과거 브랜치 삭제 (선택)
-git branch -d week01/mamgjun
+git branch -d week01/VEDA-7
 ```
