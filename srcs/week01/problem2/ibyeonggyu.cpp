@@ -5,6 +5,8 @@
  */
 
 #include <iostream>
+#include <algorithm>
+
 using namespace std;
 
 int main(void)
@@ -13,17 +15,12 @@ int main(void)
 	cin.tie(NULL);
 
 	int apple = 0, banana = 0, pear = 0;
-	int cnt = 0;
+	int temp = 0;
 
 	cin >> apple >> banana >> pear;
-	cnt = pear / 4;
-
-	if (cnt > (banana / 2))
-	{
-		cnt = banana / 2;
-		cout << 7 * cnt;
-	}
-	else
-		cout << 7 * cnt;
+	int cnt1 = apple / 1, cnt2 = banana / 2, cnt3 = pear / 4;
+	cout << cnt1 << " " << cnt2 << " " << cnt3 << "\n";
+	temp = min(min(cnt1, cnt2), cnt3);
+	cout << temp * 7;
 	return 0;
 }
