@@ -19,7 +19,7 @@ int main(void)
 
 	cin >> apple >> banana >> pear;
 	int cnt1 = apple / 1, cnt2 = banana / 2, cnt3 = pear / 4;
-	cout << cnt1 << " " << cnt2 << " " << cnt3 << "\n";
+
 	temp = min(min(cnt1, cnt2), cnt3);
 	cout << temp * 7;
 	return 0;
