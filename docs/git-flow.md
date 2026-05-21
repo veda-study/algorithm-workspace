@@ -100,8 +100,8 @@ git push origin week01/VEDA-7
 Push를 완료했으면 내 코드를 main에 합쳐달라고 요청(PR)을 보내고 코드 리뷰를 받아야 합니다.
 
 1. **GitHub 레포지토리 접속**: Push 직후 레포지토리에 들어가면 상단에 노란색 띠와 함께 Compare & pull request 버튼이 뜹니다. 그걸 클릭하세요. (없다면 상단 메뉴에 Pull requests 누르고 New pull request 버튼 클릭)
-2. **제목 작성**: 커밋 메시지와 동일하게 깔끔하게 작성합니다.
-   > 예시: [Week 01] 김명준 - 프로그래머스 PCCE 기출문제 1번 풀이 완료
+2. **제목 작성**: 깔끔하게 작성합니다.
+   > 예시: [Week 01]: [키값] 프로그래머스 PCCE 기출문제 1번 풀이 완료 - mangjun
 3. **본문 내용 작성 (복사해서 본문에 사용)**:
 ```markdown
 ## 📌 관련 Jira 이슈
