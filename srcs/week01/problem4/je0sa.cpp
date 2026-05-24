@@ -35,7 +35,7 @@ int main()
         if(studenList.at(i) == char('A' + count))
         {
             // 올바른 순서라면 벌점을 주지 않고, 다음 올바른 알파벳 순서로 이동
-            count++;
+            count = (count + 1) % 26;
         }else{
             // 순서가 맞지 않다면 새치기이므로 벌점 추가
             result++;
