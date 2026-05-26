@@ -6,9 +6,12 @@
 
 #include <iostream>
 
+using namespace std;
 int main(void)
 {
-    
+    int n;
+    cin >> n;
+    cout<< (1000 - n)/100 << " " << ((1000-n)%100)/50 << " " << (((1000-n)%100)%50)/10 << "\n";
 
     return 0;
 }
