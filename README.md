@@ -60,4 +60,5 @@
 
 | 주차 | 주제 | 진행 기간 | 가이드라인 및 문제 링크 | 발표자 및 주제 |
 | :---: | :---: | :---: | :---: | :---: |
-| Week 01 | 팀원 실력 검증 및 Jira 및 Github 툴 숙지 | 05.18 ~ 05.24 | - | 김명준<br>Jira 사용법 |
+| Week 01 | 팀원 실력 검증 및 Jira 및 Github 툴 숙지 | 05.18 ~ 05.24 | [Week 01](https://github.com/veda-study/algorithm-workspace/tree/main/srcs/week01) | 김명준<br>Jira 사용법 |
+| Week 02 | STL 컨테이너 익숙해지기 | 05.25 ~ 05.31 | [Week 02](https://github.com/veda-study/algorithm-workspace/tree/main/srcs/week02) | 이영민<br>연결리스트 ADT |
