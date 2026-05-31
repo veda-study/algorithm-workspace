@@ -8,7 +8,16 @@
 
 int main(void)
 {
-    
-
+    for(int i=1; i<10000; i++){
+        if(i<10){
+            if(i*i%10 == i) std::cout << i << "\n";
+        } else if(i<100){
+            if(i*i%100 == i) std::cout << i << "\n";
+        } else if(i<1000){
+            if(i*i%1000 == i) std::cout << i << "\n";
+        } else{
+            if(i*i%10000 == i) std::cout << i << "\n";
+        }
+    }
     return 0;
 }
