@@ -6,9 +6,18 @@
 
 #include <iostream>
 
+using namespace std;
 int main(void)
 {
-    
-
+    int arr[3]={0,}, num;
+    for(int i=0; i<7; i++)
+    {
+        cin >> num;
+        if(num<10) arr[0]+=num;
+        else if(num<100) arr[1]+=num;
+        else arr[2]+=num;
+    }
+    for(int i=0; i<3; i++) cout << arr[i] << " ";
+    cout << "\n";
     return 0;
 }
